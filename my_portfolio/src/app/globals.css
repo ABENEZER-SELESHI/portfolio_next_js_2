@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap");
+
+@import "tailwindcss";
+
+@layer utilities {
+  .font-londrina-outline {
+    font-family: "Londrina Outline", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+@theme {
+  /* Font styles */
+  --font-inter: var(--font-inter), sans-serif;
+  --font-poppins: var(--font-poppins), sans-serif;
+
+  /* Brand Colors */
+  --color-bg-primary: #0a0a0a; /*#06141b;*/
+  --color-bg-secondary: #222526; /*#11212d;*/
+
+  --color-section-divider: #253745;
+
+  --color-text-primary: #ccd0cf;
+  --color-text-secondary: #9ba8ab;
+  --color-text-highlight: #2cc295;
+
+  --color-border: #4a5c6a;
+  --color-error: #e4000f;
+
+  --color-accent-primary: #ffd300;
+  --color-accent-secondary: #f59e0b;
+  --color-accent-success: #10b981;
+  --color-accent-warning: #f59e0b;
+  --color-accent-error: #ef4444;
+
+  --color-shadow: rgba(0, 0, 0, 0.1);
+  --color-overlay: rgba(0, 0, 0, 0.05);
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-poppins;
+  }
+
+  body {
+    @apply transition-colors duration-200;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
