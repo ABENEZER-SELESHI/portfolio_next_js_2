@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import GithubCard from "./GithubCard";
 import LinkedInCard from "./LinkedInCard";
+import LeetcodeCard from "./LeetcodeCard";
 
 const AboutMe = () => {
   return (
@@ -34,6 +35,7 @@ const AboutMe = () => {
       <div className="grid grid-cols-3 sm:grid-cols-10 gap-3 w-full">
         <GithubCard />
         <LinkedInCard />
+        <LeetcodeCard />
       </div>
     </div>
   );
