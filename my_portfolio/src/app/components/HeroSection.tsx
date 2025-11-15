@@ -24,7 +24,7 @@ const HeroSection = () => {
       </h3>
 
       <a
-        href="/resume/Abenezer-Seleshi-Abdisa-FlowCV-Resume-20251115.pdf"
+        href="/resume/Abenezer-Seleshi-Abdisa-FlowCV-Resume-20251115 (1).pdf"
         download
         className="py-4 px-6 rounded-2xl font-bold 
     text-[var(--color-text-highlight)] 
