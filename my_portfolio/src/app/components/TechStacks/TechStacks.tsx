@@ -7,6 +7,7 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaDatabase,
+  FaAngular,
 } from "react-icons/fa";
 import TechCards from "./TechCards";
 import { RiNextjsFill } from "react-icons/ri";
@@ -21,6 +22,7 @@ const TechStacks = () => {
     { icon: FaHtml5, name: "HTML5" },
     { icon: FaCss3Alt, name: "CSS3" },
     { icon: FaDatabase, name: "MongoDB" },
+    { icon: FaAngular, name: "Angular" },
   ];
 
   return (
