@@ -11,6 +11,7 @@ import {
 } from "react-icons/fa";
 import TechCards from "./TechCards";
 import { RiNextjsFill } from "react-icons/ri";
+import { DiPostgresql } from "react-icons/di";
 
 const TechStacks = () => {
   const techData = [
@@ -22,6 +23,7 @@ const TechStacks = () => {
     { icon: FaHtml5, name: "HTML5" },
     { icon: FaCss3Alt, name: "CSS3" },
     { icon: FaDatabase, name: "MongoDB" },
+    { icon: DiPostgresql, name: "PostgreSQL" },
     { icon: FaAngular, name: "Angular" },
   ];
 
